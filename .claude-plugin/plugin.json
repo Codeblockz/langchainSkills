@@ -1,0 +1,9 @@
+{
+  "name": "langgraph",
+  "version": "1.0.0",
+  "description": "Build AI agents with LangGraph using best practices. Includes patterns for state management, tools, streaming, human-in-the-loop, and error prevention.",
+  "author": {
+    "name": "Ryan"
+  },
+  "keywords": ["langgraph", "langchain", "agents", "ai", "llm", "python"]
+}
