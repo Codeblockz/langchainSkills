@@ -1,4 +1,6 @@
-# LangChain AI Plugin for Claude Code
+# LangChain Community Plugin for Claude Code
+
+> **Unofficial** community plugin - not affiliated with LangChain, Inc.
 
 Build AI applications with LangChain and LangGraph. This plugin provides comprehensive guidance for agents, RAG pipelines, and LCEL chains with best practices baked in.
 
@@ -14,7 +16,7 @@ Build AI applications with LangChain and LangGraph. This plugin provides compreh
 
 ```bash
 # Add to your Claude Code plugins
-claude plugins add /path/to/langchainSkills
+claude plugins add /path/to/langchain-community-plugin
 ```
 
 Or copy to your project's `.claude-plugin/` directory.

@@ -1,7 +1,7 @@
 {
-  "name": "langchain-ai",
+  "name": "langchain-community",
   "version": "2.0.0",
-  "description": "Build AI applications with LangChain and LangGraph. Agents, RAG pipelines, and LCEL chains with best practices.",
+  "description": "Unofficial Claude Code plugin for LangChain and LangGraph. Agents, RAG pipelines, and LCEL chains with best practices.",
   "author": {
     "name": "Ryan"
   },
