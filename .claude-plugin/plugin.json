@@ -1,9 +1,10 @@
 {
   "name": "langchain-community",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Unofficial Claude Code plugin for LangChain and LangGraph. Agents, RAG pipelines, and LCEL chains with best practices.",
   "author": {
     "name": "Ryan"
   },
+  "license": "Apache-2.0",
   "keywords": ["langchain", "langgraph", "agents", "rag", "retrieval", "vector", "lcel", "chains", "ai", "llm", "python"]
 }

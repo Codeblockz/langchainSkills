@@ -45,3 +45,8 @@ tests/**/docs/*.txt
 
 # Local test scenarios (scratch/exploratory)
 tests/
+
+# Testing system artifacts
+testing/.metrics.db
+testing/reports/*.md
+testing/reports/*.html
