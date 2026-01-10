@@ -14,8 +14,20 @@ Build AI applications with LangChain and LangGraph. This plugin provides compreh
 
 ## Installation
 
+### Via Marketplace (Recommended)
+
 ```bash
-# Install from GitHub (recommended - supports updates)
+# Add the marketplace
+/plugin marketplace add github:Codeblockz/langchain-community-plugin
+
+# Install the plugin
+/plugin install langchain-community
+```
+
+### Direct Installation
+
+```bash
+# Install from GitHub (supports updates)
 claude plugins add https://github.com/Codeblockz/langchain-community-plugin
 ```
 
