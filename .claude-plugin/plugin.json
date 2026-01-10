@@ -6,6 +6,5 @@
     "name": "Ryan"
   },
   "license": "Apache-2.0",
-  "keywords": ["langchain", "langgraph", "agents", "rag", "retrieval", "vector", "lcel", "chains", "ai", "llm", "python"],
-  "mcpServers": ".claude-plugin/.mcp.json"
+  "keywords": ["langchain", "langgraph", "agents", "rag", "retrieval", "vector", "lcel", "chains", "ai", "llm", "python"]
 }
