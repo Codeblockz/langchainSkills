@@ -29,6 +29,25 @@ Alternatively, install from a local path:
 claude plugins add /path/to/langchain-community-plugin
 ```
 
+## Local Development
+
+To test the plugin during development without installing:
+
+```bash
+claude --plugin-dir /path/to/langchain-community-plugin
+```
+
+This loads your plugin directly. Restart Claude Code to pick up changes as you develop.
+
+**Verifying the plugin loaded:**
+- Run `/help` to see commands listed under `langchain-community:`
+- Run `/agents` to see the reviewer agents
+- Ask Claude to "build an agent" to trigger the langgraph skill
+
+**Debugging:**
+- Use `claude --debug` to see plugin loading errors
+- Check YAML frontmatter syntax in skill/command files
+
 ## Skills
 
 ### langgraph (Agents)
@@ -159,8 +178,8 @@ Claude: [Uses langchain-chains skill, creates extraction chain with Pydantic]
 
 ## Requirements
 
-- Python 3.9+
-- Core: `pip install langchain langchain-openai`
+- Python 3.10+ (3.11 recommended)
+- Core: `pip install "langchain>=1.0" "langchain-openai>=1.0"`
 - Agents: `pip install langgraph`
 - RAG: Vector store specific (see skill docs)
   - FAISS: `pip install faiss-cpu`
