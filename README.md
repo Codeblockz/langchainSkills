@@ -222,4 +222,4 @@ langchain-community-plugin/
 
 ## Version
 
-v2.0.0 - Added RAG and Chains skills, renamed to `langchain-community`
+v0.1.0 - Added RAG and Chains skills, renamed to `langchain-community`
